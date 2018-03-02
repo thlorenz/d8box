@@ -1,0 +1,6 @@
+v8/
+v8crank/
+v8turbo/
+depot_tools/
+.gclient
+.gclient_entries
