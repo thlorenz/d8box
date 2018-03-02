@@ -25,12 +25,12 @@ const ITER = 1E2
 for (let i = 0; i < ITER; ++i) test()
 
 // Starting Test
+/*
 const startTime = Date.now()
 for (let i = 0; i < ITER; ++i) test()
 const endTime = Date.now()
 print('Time: ' + (endTime - startTime) + 'ms.')
 
-/*
 // Need to run with --allow-natives-syntax
 function checkCrankshaft() {
   print('foo optimized ' + %GetOptimizationCount(foo) + ' times')
@@ -44,4 +44,7 @@ function checkTurboFan() {
   print('foo1'); %DebugPrint(foo1)
   print('foo2'); %DebugPrint(foo2)
 }
+
+// checkCrankshaft()
+checkTurboFan()
 */
